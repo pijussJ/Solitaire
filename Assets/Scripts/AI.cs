@@ -60,7 +60,7 @@ public class AI : MonoBehaviour
         float yOffset = 0;
         foreach (string card in deck)
         {
-            GameObject newCard = Instantiate(cardPrefab,new Vector3(transform.position.x,transform.position.y - yOffset, transform.position.z - zOffset), Quaternion.identity);
+            GameObject newCard = Instantiate(cardPrefab,new Vector3(transform.position.x,transform.position.y - yOffset, transform.position.z), Quaternion.identity);
             newCard.name = card;
             newCard.GetComponent<CanSelect>().faceUp = true;
 
