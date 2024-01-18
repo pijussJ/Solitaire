@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 189172754}
   - component: {fileID: 189172755}
   m_Layer: 0
-  m_Name: b8fa8f291632f8fe68842e4fb100d8e0-square-rectangle-shape (5)
+  m_Name: Bottom2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 214983244}
   - component: {fileID: 214983245}
   m_Layer: 0
-  m_Name: b8fa8f291632f8fe68842e4fb100d8e0-square-rectangle-shape (11)
+  m_Name: Top2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 623910370}
   - component: {fileID: 623910371}
   m_Layer: 0
-  m_Name: b8fa8f291632f8fe68842e4fb100d8e0-square-rectangle-shape (2)
+  m_Name: Bottom5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 690665766}
   - component: {fileID: 690665767}
   m_Layer: 0
-  m_Name: b8fa8f291632f8fe68842e4fb100d8e0-square-rectangle-shape (12)
+  m_Name: Top1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -629,7 +629,7 @@ GameObject:
   - component: {fileID: 731649409}
   - component: {fileID: 731649410}
   m_Layer: 0
-  m_Name: b8fa8f291632f8fe68842e4fb100d8e0-square-rectangle-shape (10)
+  m_Name: Top3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -713,7 +713,7 @@ GameObject:
   - component: {fileID: 741822067}
   - component: {fileID: 741822068}
   m_Layer: 0
-  m_Name: b8fa8f291632f8fe68842e4fb100d8e0-square-rectangle-shape (6)
+  m_Name: Bottom1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -938,7 +938,7 @@ GameObject:
   - component: {fileID: 862097698}
   - component: {fileID: 862097699}
   m_Layer: 0
-  m_Name: b8fa8f291632f8fe68842e4fb100d8e0-square-rectangle-shape (3)
+  m_Name: Bottom4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1022,7 +1022,7 @@ GameObject:
   - component: {fileID: 1155596503}
   - component: {fileID: 1155596504}
   m_Layer: 0
-  m_Name: b8fa8f291632f8fe68842e4fb100d8e0-square-rectangle-shape (7)
+  m_Name: Bottom0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1178,6 +1178,19 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 35db8e23d68bf2541a839938643a5bc8, type: 3}
   - {fileID: 21300000, guid: 2f0a00ae6a97f67478e3e5399eed718e, type: 3}
   cardPrefab: {fileID: 8020811149251207001, guid: a367f5c90514e0946a6454dad5cbc431, type: 3}
+  bottomPos:
+  - {fileID: 1155596502}
+  - {fileID: 741822066}
+  - {fileID: 189172753}
+  - {fileID: 2143934910}
+  - {fileID: 862097697}
+  - {fileID: 623910369}
+  - {fileID: 1459908584}
+  topPos:
+  - {fileID: 2055890153}
+  - {fileID: 690665765}
+  - {fileID: 214983243}
+  - {fileID: 731649408}
   deck: []
 --- !u!4 &1411967967
 Transform:
@@ -1205,7 +1218,7 @@ GameObject:
   - component: {fileID: 1459908585}
   - component: {fileID: 1459908586}
   m_Layer: 0
-  m_Name: b8fa8f291632f8fe68842e4fb100d8e0-square-rectangle-shape (8)
+  m_Name: Bottom6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1327,7 +1340,7 @@ GameObject:
   - component: {fileID: 2055890154}
   - component: {fileID: 2055890155}
   m_Layer: 0
-  m_Name: b8fa8f291632f8fe68842e4fb100d8e0-square-rectangle-shape (13)
+  m_Name: Top0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1411,7 +1424,7 @@ GameObject:
   - component: {fileID: 2143934911}
   - component: {fileID: 2143934912}
   m_Layer: 0
-  m_Name: b8fa8f291632f8fe68842e4fb100d8e0-square-rectangle-shape (4)
+  m_Name: Bottom3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
